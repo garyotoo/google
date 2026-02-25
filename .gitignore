@@ -1,0 +1,28 @@
+# Generated build outputs (these are what we push)
+# Only loader.js and games/ should be committed
+# Everything else is local build artifacts or source
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Build artifacts (generated from build.py, tracked in garyotoo/google)
+# These are intentionally NOT here — loader.js and games/ ARE committed
+# index.html is generated but not committed (stays local)
+index.html
+shell.html
+shell_DataUri.txt
+shellNewest.html
+shellNewest_DataUri.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
